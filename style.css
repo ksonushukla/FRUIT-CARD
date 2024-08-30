@@ -128,7 +128,10 @@ button{
         .container_img{
             left: 0;
         }
-    .fruit_image img{
-    margin-left:0;
+        .fruit_image img{
+            left: -15px;
+            height: 380px;
+            width: 380px;
+        }
 
 }
