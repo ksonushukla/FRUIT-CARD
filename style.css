@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: rgb(161, 218, 147);
+    font-family: sans-serif;  
+}
+.container_mein{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container_background{
+
+    margin-top: 80px;
+    border-radius: 10px;
+    height:600px;
+    width: 700px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container_img{
+    border-radius: 10px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    background-color: rgb(148, 190, 93);
+    position: relative;
+    left: -50px;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.616);
+}
+.container_img .icon_1{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 7px;
+    font-size: 18px;
+}
+.fruit_image img{
+    height: 400px;
+    width: 400px;
+    margin-left: -80px;
+    /* padding-bottom: 50px; */
+    
+}
+.footer_flex{
+    /* max-width: 1300px;
+    margin: 0 auto; */
+    height: 80px;
+    width: 350px;
+    border-radius: 0 0 10px 10px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+    align-self: flex-end;
+    
+}
+.footer_flex img{
+    height: 55px;
+    width: 60px;
+    border: 1px solid gray;
+    padding: 5px;
+}
+/* new section */
+.container_text_type{
+    height: 500px;
+    width: 350px;
+    /* background-color: rgb(255, 244, 244); */
+    padding: 10px 5px;
+    background-color: white;
+    
+}
+.paise{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: red;
+}
+.paise p span{
+    font-size: 55px;
+}
+.fruit_2 img{
+    height: 35px;
+    padding: 5px;
+    border: 1px solid transparent;
+}
+.fruit_2 img:hover{
+    border: 1px solid rgb(43, 33, 33);
+}
+.ul_design{
+    padding-top: 10px;
+}
+.ul_design h3{
+    color: rgb(197, 197, 197);
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.ul_design ul li{
+    padding: 5px;
+}
+button{
+    margin-top: 50px;
+    padding: 12px 25px;
+    background-color: rgb(243, 93, 93);
+    color: white;
+    font-weight: 600;
+    border: none;
+    text-transform: uppercase;
+}
+@media (max-width:500px){
+        .container_background{
+            height: auto;
+            width: 380px;
+            background-color: rgb(255, 255, 255);
+            flex-direction: column;
+        
+        }
+        .container_img{
+            left: 0;
+        }
+
+
+}
